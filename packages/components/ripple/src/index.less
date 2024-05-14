@@ -1,0 +1,24 @@
+.fn-ripple {
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  inset: 0px;
+  border-radius: inherit;
+  pointer-events: none;
+
+  &__span {
+    position: absolute;
+    transform: scale(0);
+    border-radius: 100%;
+    animation-name: ripple-effect;
+    animation-timing-function: ease-out;
+    cursor: pointer;
+  }
+}
+
+@keyframes ripple-effect {
+  to {
+    opacity: 0;
+    transform: scale(2);
+  }
+}

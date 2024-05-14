@@ -1,0 +1,16 @@
+{
+  "name": "@fusion-ui-vue/theme",
+  "version": "0.0.2",
+  "description": "Fusion-Ui Theme",
+  "license": "MIT",
+  "main": "index.ts",
+  "module": "index.ts",
+  "peerDependencies": {
+    "vue": "^3.3.8"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.11.2",
+    "@fontsource/roboto": "^5.0.8",
+    "@material/material-color-utilities": "^0.2.7"
+  }
+}

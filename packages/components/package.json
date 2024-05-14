@@ -1,0 +1,16 @@
+{
+  "name": "@fusion-ui-vue/components",
+  "version": "0.0.2",
+  "description": "all components are settled here",
+  "sideEffects": false,
+  "main": "index.ts",
+  "module": "index.ts",
+  "types": "index.d.ts",
+  "peerDependencies": {
+    "vue": "^3.3.8",
+    "vue-router": "4"
+  },
+  "dependencies": {
+    "csstype": "^3.1.2"
+  }
+}

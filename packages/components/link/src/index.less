@@ -1,0 +1,28 @@
+.fn-link {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  &--underline-none {
+    text-decoration: none;
+  }
+  &--underline-hover {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &--underline-always {
+    text-decoration: underline rgb(var(--fn-link-color-rgb) / 0.4);
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &[disabled] {
+    pointer-events: none;
+    cursor: default;
+    color: var(--fn-sys-color-disabled-level-1);
+  }
+}

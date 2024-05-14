@@ -1,0 +1,33 @@
+.fn-breadcrumb {
+  width: fit-content;
+  color: rgb(var(--fn-breadcrumb-color-rgb) / 0.6);
+
+  &--item:last-child {
+    color: var(--fn-breadcrumb-color);
+  }
+
+  &--container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+  }
+  &--separator {
+    color: inherit;
+  }
+  &--separator .fn-icon,
+  &--separator .fn-svg-icon {
+    color: inherit;
+    font-size: 20px;
+  }
+  &__button--more {
+    border-radius: 2px;
+    background-color: rgb(var(--fn-breadcrumb-color-rgb) / 0.1);
+    font-size: 20px;
+    height: fit-content;
+    .fn-svg-icon {
+      width: 24px;
+      height: 16px;
+    }
+  }
+}

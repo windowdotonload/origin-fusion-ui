@@ -1,0 +1,18 @@
+.fn-typography {
+  &[disabled] {
+    color: var(--fn-sys-color-disabled-level-0) !important;
+    cursor: default;
+  }
+
+  &--gutter {
+    margin-top: 0.35em !important;
+    margin-bottom: 0.35em !important;
+  }
+
+  &.fn-typography--nowarp {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+}
