@@ -3,7 +3,8 @@ name: Deploy
 on:
   push:
     branches:
-      - master
+      - main  # 如果你的默认分支是 main
+      - master  # 保留 master 以防万一
 
 jobs:
   deploy:
