@@ -10,10 +10,5 @@ export default defineConfig(() => {
     optimizeDeps: {
       include: ['fusion-ui-iconify'],
     },
-    resolve: {
-      alias: {
-        'fusion-ui-iconify': 'fusion-ui-iconify/dist/dist.mjs'
-      }
-    }
   }
 })
