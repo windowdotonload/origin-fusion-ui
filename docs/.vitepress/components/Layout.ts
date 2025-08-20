@@ -38,9 +38,7 @@ export default defineComponent({
       typeof window === 'undefined'
         ? null
         : h(ThemeProvider, { theme: uiTheme.value }, () =>
-            h(theme.Layout, null, {
-              'home-features-after': () => h(TeamMember),
-            })
+            h(theme.Layout, null)
           )
   },
 })

@@ -24,7 +24,7 @@ hero:
 
     - theme: alt
       text: View on GitHub
-      link: https://github.com/tsinghua-lau/fusion-ui
+      link: https://github.com/windowdotonload/origin-fusion-ui
 
 features:
   - icon: 🧜

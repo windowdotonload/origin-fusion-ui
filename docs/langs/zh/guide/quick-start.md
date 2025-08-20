@@ -18,14 +18,6 @@ Fusion Ui 是一个 Vue3 组件库，简洁、优雅、美观
 - 📃 详细的中/英文档
 - 🛠  More...
 
-## 特别感谢
-
-❤️ 感谢所有为 ```FusionUi``` 做出 [贡献的人](https://github.com/tsinghua-lau/fusion-ui/graphs/contributors)！
-
-<a href="https://github.com/tsinghua-lau/fusion-ui/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=tsinghua-lau/fusion-ui" />
-</a>
-
 
 ## 最新版本
 

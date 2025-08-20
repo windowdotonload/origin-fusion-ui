@@ -14,13 +14,7 @@ If you want to learn how to build the Vue3+Ts+Vite component library, it will be
 - 🎡 Introduce on demand - Provide resolver to automatically import only used components.
 - 💪 TS Supported - Support TypeScript & type checked & type inference.
 
-## Special Thanks
 
-❤️ Thanks to [everyone](https://github.com/tsinghua-lau/fusion-ui/graphs/contributors)  who has already contributed to ```Fusion Ui```!
-
-<a href="https://github.com/tsinghua-lau/fusion-ui/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=tsinghua-lau/fusion-ui" />
-</a>
 
 
 ## Latest Version
