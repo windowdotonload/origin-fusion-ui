@@ -23,6 +23,12 @@
     }
   },
 
+  "include": [
+    "packages/**/*",
+    "packages/components/typings.d.ts",
+    "packages/components/shims-vue.d.ts"
+  ],
+
   "exclude": [
     "node_modules",
     "build",

@@ -32,8 +32,8 @@ const positionCss = computed(() =>
     : ''
 )
 const BadgeTypography = computed(
-  () => styled(Typography, { color: $onColor.value })`
-    background-color: ${$color.value};
+  () => styled(Typography, { color: $onColor.value || 'inherit' })`
+    background-color: ${$color.value || 'transparent'};
     height: ${props.variant === 'dot' ? '8px' : '20px'};
     min-width: ${props.variant === 'dot' ? '8px' : '20px'};
     border-radius: 10px;
