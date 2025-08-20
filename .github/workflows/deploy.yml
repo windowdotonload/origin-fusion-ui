@@ -5,6 +5,7 @@ on:
     branches:
       - main  # 如果你的默认分支是 main
       - master  # 保留 master 以防万一
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
   deploy:
