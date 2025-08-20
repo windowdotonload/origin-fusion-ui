@@ -1,5 +1,11 @@
 import { warn } from 'vue'
-import { fromPairs } from 'lodash-unified'
+// 自定义 fromPairs 函数，替代 lodash-unified
+const fromPairs = (pairs: Array<[string, any]>): Record<string, any> => {
+  return pairs.reduce((result, [key, value]) => {
+    result[key] = value
+    return result
+  }, {} as Record<string, any>)
+}
 import type { PropType } from 'vue'
 import { isObject } from '../../types'
 import { hasOwn } from '../../objects'

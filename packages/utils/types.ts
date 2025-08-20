@@ -3,7 +3,8 @@ import {
   isObject,
   isString,
 } from '@vue/shared'
-import { isNil } from 'lodash-unified'
+// 自定义 isNil 函数，替代 lodash-unified
+const isNil = (value: any): value is null | undefined => value == null
 export { isString, isObject, isArray }
 export { isBoolean, isNumber } from '@vueuse/core'
 export { isVNode } from 'vue'

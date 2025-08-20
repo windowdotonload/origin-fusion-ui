@@ -1,7 +1,9 @@
 import type { Component, VNodeProps, h } from 'vue'
 import { computed, defineComponent, mergeProps } from 'vue'
-import type { CSSInterpolation } from '@emotion/css'
 import { css } from '@emotion/css'
+
+// 定义 CSSInterpolation 类型
+type CSSInterpolation = string | object | Array<string | object>
 import { useTheme } from '../hooks'
 import type Theme from './theme'
 
