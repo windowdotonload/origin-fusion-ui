@@ -5,21 +5,16 @@ import { head, nav, sidebar, vite } from './configuration'
 
 export default defineConfig({
   title: 'Fusion Ui',
-  base: '/fusion-ui/',
+  base: './',
   description:
     'A Vue.js prebuilt component library based on Preline design draft',
   head,
   // darkMode: true,
   themeConfig: {
     logo: '/logo.svg',
-    editLink: {
-      pattern:
-        'https://github.com/tsinghua-lau/fusion-ui/edit/master/docs/:path',
-      text: 'Suggest changes to this page',
-    },
     nav,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/tsinghua-lau/fusion-ui' },
+      { icon: 'github', link: 'https://github.com/windowdotonload/origin-fusion-ui' },
     ],
     sidebar,
     outline: {
