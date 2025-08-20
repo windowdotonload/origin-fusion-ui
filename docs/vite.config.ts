@@ -4,8 +4,16 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 export default defineConfig(() => {
   return {
     plugins: [vueJsx()],
-    // ssr: {
-    //   noExternal: ['fusion-ui-iconify'],
-    // },
+    ssr: {
+      noExternal: ['fusion-ui-iconify'],
+    },
+    optimizeDeps: {
+      include: ['fusion-ui-iconify'],
+    },
+    resolve: {
+      alias: {
+        'fusion-ui-iconify': 'fusion-ui-iconify/dist/dist.mjs'
+      }
+    }
   }
 })
